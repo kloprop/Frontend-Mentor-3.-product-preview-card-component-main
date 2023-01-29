@@ -33,14 +33,8 @@ img {
 .card__header {
   position: relative;
 }
-.card__header > img {
+picture > img {
   width: 100%;
-}
-.grid-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: none;
 }
 
 .card__content {
@@ -120,11 +114,10 @@ button img {
   }
   .grid {
     display: grid;
-    grid-template-rows: 60vh;
     grid-template-columns: 50% 50%;
   }
   .grid-image {
-    display: block;
+    display: bloc;
     height: 100%;
   }
   .btn {

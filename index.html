@@ -24,8 +24,11 @@
   <main>
     <div class="card grid container">
       <div class="card__header">
-        <img src="images/image-product-mobile.jpg" alt="A product of perfume">
-        <img class="grid-image" src="images/image-product-desktop.jpg" alt="A product of perfume">
+        <picture>
+          <source media="(min-width:768px)" srcset="images/image-product-desktop.jpg">
+          <img src="images/image-product-mobile.jpg" alt="A product of perfume">
+        </picture>
+
       </div>
       <div class="card__content">
         <p class="product-type">perfume</p>
