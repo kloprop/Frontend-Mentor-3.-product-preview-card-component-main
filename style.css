@@ -15,6 +15,7 @@ body {
   color: grey;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  font-size: 0.9rem;
 }
 h1 {
   margin: 0;
@@ -44,7 +45,10 @@ img {
 
 .card__content {
   background-color: white;
-  padding: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .card__content p {
   line-height: 1.5;
@@ -58,7 +62,7 @@ img {
 }
 .product-name,
 .card-price > p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: "Fraunces", serif;
   font-weight: 700;
 }
@@ -103,16 +107,16 @@ button p {
   background-color: hsl(212, 21%, 14%);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   body {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
   }
   .card {
-    width: 27rem;
+    width: 37rem;
   }
   .product-name,
   .card-price > p {
-    font-size: 1.25rem;
+    font-size: 1.8rem;
   }
   .grid {
     display: grid;
@@ -125,7 +129,7 @@ button p {
   }
   .btn {
     padding: 0.5rem 0;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
   }
 }
 
